@@ -1,0 +1,19 @@
+# 忽略无用文件
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.log
+*.jpeg
+*.jpg
+*.txt
+
+# 忽略调试文件和测试文件
+public/demo/*
+public/socket/*
+public/.vscode/*
+.vscode/*
+tools/bin/*
+idc/bin/*
+idc/ini/*
